@@ -39,6 +39,16 @@ break;
 
 case '^':
 cout << num1 << "^" << num2 << "=" << pow(num1,num2);
+break;
+
+case '>':
+if (num1 > num2){
+    cout << num1 << " is greater than " << num2 << ".";
+} else if (num2 > num1){
+    cout << num1 << " is smaller than " << num2 << ".";
+} else {
+    cout << "Both numbers are equal.";
+}
 break; 
 
 default:
