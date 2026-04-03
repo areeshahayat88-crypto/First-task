@@ -35,6 +35,10 @@ cout << "Error! Division by zero is not allowed";
 } else {
 cout << num1 << "/" << num2 << "=" << num1 / num2;
 }
+break;
+
+case '^':
+cout << num1 << "^" << num2 << "=" << pow(num1,num2);
 break; 
 
 default:
